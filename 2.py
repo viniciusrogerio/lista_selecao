@@ -1,5 +1,5 @@
 def informaCategoria(idade):
-	idade=int(idade)
+    idade=int(idade)
 	if idade in range(0,2):
 		categoria = 'Bebê'
 	elif idade in range(2,13):
@@ -15,4 +15,3 @@ def informaCategoria(idade):
 	else:
 		categoria = 'Idade inválida!'
 	return categoria
-
