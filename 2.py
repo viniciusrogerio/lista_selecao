@@ -15,3 +15,4 @@ def informaCategoria(idade):
 	else:
 		categoria = 'Idade inválida!'
 	return categoria
+
