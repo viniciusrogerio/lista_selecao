@@ -3,7 +3,7 @@ def informaEstacao(mes,hemisf):
     hemisf=hemisf.upper()
     if hemisf=='NORTE':
         if mes==12 or mes==1 or mes==2:
-        	estacao='Inverno'
+            estacao='Inverno'
         elif mes==3 or mes==4 or mes==5:
             estacao='Primavera'
         elif mes==6 or mes==7 or mes==8:
